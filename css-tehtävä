@@ -1,1 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+.example {
+  padding: 30px;
+  color: white;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .example {background: red;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .example {background: green;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .example {background: blue;}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .example {background: orange;}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .example {background: yellow;}
+}
+p {
+  font-size: 18px;
+}
+
+
+img {
+  border-radius: 20px;
+}
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+  background-color: white;
+}
+
+  @media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+h1 { text-align:center;
+  font-size: 30px;
+  font-family: Helvetica;
+}
+
+</style>
+</head>
+<body>
+
+<h2>Tuntitehtävä - CSS</h2>
+<p class="example"></p>
+
+
+
+<p> Koulutuskeskus Salpaus on toisen asteen oppilaitos, joka järjestää ammatillista koulutusta aikuisille ja nuorille. Salpaus tarjoaa koulutusta henkilöstölle, esimiehille ja asiantuntijoille sekä apua rekrytointiin yrityksille ja muille organisaatioille. Salpauksessa voi suorittaa ammatillisia perus-, ammatti- ja erikoisammattitutkintoja tai täydentää osaamistaan eri alojen henkilöstö- ja täydennyskoulutuksessa. Lisäksi Salpauksessa järjestetään monella koulutusalalla lupakorttikoulutusta.</p>
+
+<p> Salpaus toimii Päijät-Hämeen alueella kolmella paikkakunnalla, Lahdessa, Asikkalassa ja Heinolassa viidellä kampuksella. Sen ylläpitäjä on Koulutuskeskus Salpaus -kuntayhtymä. Opettajia ja muuta henkilöstöä Koulutuskeskus Salpauksessa on noin 640. </p> <p><a href="https://fi.wikipedia.org/wiki/Koulutuskeskus_Salpaus" target="_blank">Linkki wikipedia tekstiin</a></p>
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw4jFhEmpQTMLdrSiQx5MqtpaRgc2lgIIzZA&s" alt="Apple" width="300" height="280">
+
+<img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNNQYzGBylDfXcq6difar2zF7U0YOi5Y2-LQ&s alt="Apple" width="300" height="280">
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw4jFhEmpQTMLdrSiQx5MqtpaRgc2lgIIzZA&s" alt="Apple" width="290" height="280">
+
+<h1>Kuvia omenoista, koska salpauksesta ei ollut CC- kuvia</h1>
+
+</body>
+</html>
 
